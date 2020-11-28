@@ -10,6 +10,9 @@ from django.db import connection
 from django import template
 # Create your views here.
 from .loginOrSignUp import loginOrSignup
+from .loginOrSignUp.loginOrSignup import user_logout
+
+
 def home(request):
     return render(request, 'homepage.html')
 

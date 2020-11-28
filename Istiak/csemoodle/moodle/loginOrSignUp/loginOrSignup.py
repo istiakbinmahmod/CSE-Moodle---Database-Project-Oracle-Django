@@ -34,7 +34,7 @@ def user_login(request):
             result = cur.fetchone()
             dic_res = []
             # dbemail = None
-            dbprofileid = None
+            dbuserid = None
             dbkey = None
             dbsalt = None
             dbname = None

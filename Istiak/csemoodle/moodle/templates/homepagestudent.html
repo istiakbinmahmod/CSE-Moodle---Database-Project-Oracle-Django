@@ -8,6 +8,7 @@
 <h1>Welcome {{ name }}</h1>
 <li><a href="/home/homepage/logout/">Logout</a></li>
 <h1>Available Courses</h1>
+<!--
 <table width="100%"  border="1">
     <tr style="background-color:lightgray">
         <th>Course ID</th>
@@ -21,5 +22,13 @@
     {% endfor %}
 
 </table>
+-->
+
+{% for course in courses %}
+       <tr>
+           <td>{{course.cou_id}}</td>
+           <td>{{course.ses_id}}</td>
+       </tr>
+    {% endfor %}
 </body>
 </html>
