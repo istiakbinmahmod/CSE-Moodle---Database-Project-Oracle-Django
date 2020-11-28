@@ -8,5 +8,14 @@
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@localhost:1521:ORCL</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Django default" uuid="69984669-a307-4537-a760-a9faf033835d">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/csemoodle/settings.py</remarks>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//127.0.0.1:1521/ORCL</jdbc-url>
+    </data-source>
   </component>
 </project>

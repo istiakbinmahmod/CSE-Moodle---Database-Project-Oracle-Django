@@ -9,6 +9,8 @@ from django.views import View
 from django.db import connection
 from django import template
 
+from moodle import views
+
 
 def user_login(request):
     print("i m log in")
@@ -34,7 +36,7 @@ def user_login(request):
             result = cur.fetchone()
             dic_res = []
             # dbemail = None
-            dbuserid = None
+            dbprofileid = None
             dbkey = None
             dbsalt = None
             dbname = None
@@ -46,6 +48,8 @@ def user_login(request):
             dbstreet = None
             dbisstu = None
             dbistea = None
+            dbcourseid = None
+            dbsessionid = None
             dbuserid = result[0]
             dbkey = result[1]
             dbsalt = result[2]
@@ -92,6 +96,8 @@ def user_login(request):
                     request.session['userstreet'] = dbstreet
                     request.session['userisstu'] = dbisstu
                     request.session['useristea'] = dbistea
+                    request.session['usercourseid'] = dbcourseid
+                    request.session['usersessionid'] = dbsessionid
                     """dbemail = None
                     dbphoneno = None
                     dbdob = None
@@ -232,13 +238,57 @@ def profilestudenthome(request):
     try:
         usr = request.session['username']
     except:
+        print('kisu korar nai')
+        user_logout(request)
+    if request.method == 'POST':
+        print('post koreidde baji')
+        course_id = request.POST.get('course_id')
+        session_id = request.POST.get('session_id')
+        request.session['usercourseid'] = course_id
+        request.session['usersessionid'] = session_id
+        print('ager req courseid hoitese : ' + request.session['usercourseid'])
+        print('ager req sessionid hoitese : ' + request.session['usersessionid'])
+        print('course hoitase' + course_id + ' and session hoitese : ' + session_id)
+        return redirect('/home/profile/student/course/')
+        #return render(request, 'studentcourse.html',{'courseid':course_id, 'sessionid':session_id})
+    else:
+        name = request.session['username']
+        profileid = request.session['userprofileid']
+        print(profileid)
+        print(name)
+        cur = connection.cursor()
+        sql = "select course_id, session_id from studentcourserelation where profile_id = %s"
+        cur.execute(sql, [profileid])
+        results = cur.fetchall()
+        dict_result = []
+        for r in results:
+            cour_id = r[0]
+            sess_id = r[1]
+            """
+            sql2 = "select course_id, session_id, course_title, credit_hour from course where sess_id = %s"
+            cur.execute(sql, [sess_id])
+            resultss = cur.fetchall()
+            """
+            row = {'cou_id':r[0], 'ses_id':r[1]}
+            dict_result.append(row)
+        cur.close()
+        connection.commit()
+        return render(request, 'homepagestudent.html', {'courses':dict_result})
+
+def profileteacherhome(request):
+
+    if request.method == 'POST':
+        c_id = request.POST.get('c_id')
+    try:
+        usr = request.session['username']
+    except:
         user_logout(request)
     name = request.session['username']
     profileid = request.session['userprofileid']
     print(profileid)
     print(name)
     cur = connection.cursor()
-    sql = "select course_id, session_id from studentcourserelation where profile_id = %s"
+    sql = "select course_id, session_id from instructorcourserelation where profile_id = %s"
     cur.execute(sql, [profileid])
     results = cur.fetchall()
     dict_result = []
@@ -254,14 +304,8 @@ def profilestudenthome(request):
         dict_result.append(row)
     cur.close()
     connection.commit()
-    return render(request, 'homepagestudent.html', {'courses':dict_result})
-def profileteacherhome(request):
-    try:
-        usr = request.session['username']
-    except:
-        user_logout(request)
-    name = request.session['username']
-    return render(request, 'homepageteacher.html', {'name':name})
+    return render(request, 'homepageteacher.html', {'courses':dict_result})
+
 def profileadminhome(request):
     try:
         usr = request.session['username']

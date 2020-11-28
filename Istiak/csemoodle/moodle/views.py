@@ -14,7 +14,31 @@ from .loginOrSignUp.loginOrSignup import user_logout
 
 
 def home(request):
-    return render(request, 'homepage.html')
+    result = None
+    print('home e asi')
+    try:
+        cur = connection.cursor()
+        cur.execute("select * from course")
+        result = cur.fetchall()
+        cur.close()
+    except:
+        print('product fetch failed')
+        return redirect('/homepage')
+    print('aso')
+    dict_res = []
+    for r in result:
+        course_id = r[0]
+        session_id = r[1]
+        course_title = r[2]
+        credit_hour = r[3]
+        #print(course_id)
+        #print(session_id)
+        #print(credit_hour)
+        #print(course_title)
+        row = {'course_id':course_id, 'session_id':session_id, 'course_title':course_title, 'credit_hour': credit_hour}
+        dict_res.append(row)
+    cur.close()
+    return render(request, 'homepage.html', {'courses':dict_res})
 
 def profileadmincreatecourses(request):
     try:
@@ -83,3 +107,10 @@ def profileadminassignteacourses(request):
             return redirect('/home/profile/admin/assignteacourses/')
     name = request.session['username']
     return render(request, 'assign_teachers_to_course.html', {'name': name})
+
+
+def studentcourse(request):
+    return render(request, 'studentcourse.html', {'courseid':request.session['usercourseid'], 'sessionid':request.session['usersessionid']})
+
+def teachercourse(request):
+    return render(request, 'teachercourse.html', {'courseid':'CSEEEEE', 'sessionid':'21555'})

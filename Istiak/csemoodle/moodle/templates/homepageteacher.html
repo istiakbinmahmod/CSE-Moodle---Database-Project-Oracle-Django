@@ -7,5 +7,10 @@
 <body>
 <h1>Welcome {{ name }}</h1>
 <li><a href="/home/homepage/logout/">Logout</a></li>
+<h1>Available Courses</h1>
+{% for course in courses %}
+    <p> {{ course.cou_id }} {{course.ses_id}} </p>
+    <a href = '/home/profile/teacher/course/?c_id={{ c_id }}'>go to course {{ c_id }}</a>
+{% endfor %}
 </body>
 </html>

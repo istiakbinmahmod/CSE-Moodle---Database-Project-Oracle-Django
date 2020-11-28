@@ -17,4 +17,6 @@ urlpatterns = [
     path('home/profilelogin/', loginOrSignup.user_login, name='user_login'),
     path('home/homepage/signup/', loginOrSignup.user_signup, name = 'user_signup'),
     path('home/homepage/logout/', loginOrSignup.user_logout, name = 'user_logout'),
+    path('home/profile/student/course/', views.studentcourse, name='studentcourse'),
+    path('home/profile/teacher/course/', views.teachercourse, name='teachercourse'),
 ]

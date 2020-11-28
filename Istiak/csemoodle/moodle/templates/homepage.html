@@ -6,8 +6,14 @@
 </head>
 <body>
     <li><a href="/homepage/">Logout</a></li>
-
     <li><a href="/home/profilelogin/"> Login</a></li>
     <li><a href="/home/homepage/signup/"> SignUp</a></li>
+    <p>Courses in Moodle:</p>
+{% for course in courses %}
+    <li>course id: {{ course.course_id }}</li>
+    <li>session id: {{ course.session_id }}</li>
+    <li>course title: {{ course.course_title }}</li>
+    <li>credit hour: {{ course.credit_hour }}</li>
+{% endfor %}
 </body>
 </html>
