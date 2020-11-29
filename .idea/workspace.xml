@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a0de878-ce30-434e-94ac-f1ad40474ac4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/csemoodle - Copy/.idea/csemoodle - Copy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Istiak/csemoodle/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Istiak/csemoodle/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Istiak/csemoodle/csemoodle/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Istiak/csemoodle/csemoodle/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/csemoodle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources/69984669-a307-4537-a760-a9faf033835d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources/69984669-a307-4537-a760-a9faf033835d/storage_v2/_src_/schema/MOODLEPROJECT.SRauDw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources/69984669-a307-4537-a760-a9faf033835d/storage_v2/_src_/schema/MOODLEPROJECT.SRauDw.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources/69984669-a307-4537-a760-a9faf033835d/storage_v2/_src_/schema/PUBLIC.aaZQjQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources/69984669-a307-4537-a760-a9faf033835d/storage_v2/_src_/schema/SYS.rUIBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources/69984669-a307-4537-a760-a9faf033835d/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources/96e69e6b-e1ef-44db-bae4-9234d0b786e0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources/96e69e6b-e1ef-44db-bae4-9234d0b786e0/storage_v2/_src_/schema/MOODLEPROJECT.SRauDw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources/96e69e6b-e1ef-44db-bae4-9234d0b786e0/storage_v2/_src_/schema/MOODLEPROJECT.SRauDw.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources/96e69e6b-e1ef-44db-bae4-9234d0b786e0/storage_v2/_src_/schema/PUBLIC.aaZQjQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources/96e69e6b-e1ef-44db-bae4-9234d0b786e0/storage_v2/_src_/schema/SYS.rUIBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/dataSources/96e69e6b-e1ef-44db-bae4-9234d0b786e0/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/csemoodle - Copy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/csemoodle - Copy/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/csemoodle/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/csemoodle - Copy/csemoodle/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/moodle/templates/studentcourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/csemoodle - Copy/moodle/templates/studentcourse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/moodle/templates/teachercourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/csemoodle - Copy/moodle/templates/teachercourse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/moodle/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/csemoodle - Copy/moodle/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/CSE/assignment13050012151576.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/CSE215/assignment1305001.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/CSE215/assignment1305001.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/CSE215/assignment1305001.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/CSE215/assignment13050011533.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/CSE215/assignment13050012605.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/CSE2152079/assignment1305001.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/EEE270/assignment1305002.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/EEE270/assignment13050021607.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/EEE270/assignment13050021928.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/EEE270/assignment13050022014.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/EEE270/assignment13050022317.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/EEE270assignment1305002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/EEE270assignment1305002.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/NoneNoneassignment1305001.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/assignments/NoneNoneassignment1305002.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/profilepic/propic1305001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/profilepic/propic1305002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/profilepic/propic1705010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/profilepic/propic1705061.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/profilepic/propic1705068.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/profilepic/propic1705069.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/profilepic/propic1705070.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/profilepic/propic1705074.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/profilepic/propic1705075.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/profilepic/propic1705076.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/profilepic/propic1705077.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle - Copy/static/profilepic/propic1705114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csemoodle.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kwzfYNiZDJHB2Ep1zRLsqzR8r5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a0de878-ce30-434e-94ac-f1ad40474ac4" name="Default Changelist" comment="" />
+      <created>1606626545602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606626545602</updated>
+      <workItem from="1606626554068" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
